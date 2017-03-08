@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.administrator.bmobrecyle.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="15dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/girl"
+        android:id="@+id/dogImg"/>
+
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tv1"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:text="name" />
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tv2"
+        android:layout_marginTop="5dp"
+        android:textSize="50px"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="address" />
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="删除" />
+</LinearLayout>
+</LinearLayout>
